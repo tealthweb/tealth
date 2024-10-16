@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Flipbook Journal</title>
+    <link rel="stylesheet" href="journalgpt.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html"><img 
+            <img src="images/logo.png" alt="Tealth Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Anxiety and Overthinking</a></li>
+                <li><a href="resource.html">Resources</a></li>
+                <li><a href="journal.html">My Journal!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="journal-container">
+        <div class="customization">
+            <h2>Customization</h2>
+            <div class="color-options">
+                <div class="color-circle" style="background-color: #3B82F6;" data-color="#3B82F6"></div>
+                <div class="color-circle" style="background-color: #D1A6A3;" data-color="#D1A6A3"></div>
+                <div class="color-circle" style="background-color: #FFFFFF;" data-color="#FFFFFF"></div>
+                <div class="color-circle" style="background-color: #B3B6E6;" data-color="#B3B6E6"></div>
+        
+            </div>
+
+            <!-- New Section for Name Input -->
+            <div class="name-input-section">
+                <h3>Write your name!</h3>
+                <input type="text" id="user-name-input" placeholder="Enter your name" />
+                <button id="update-name-btn">Update Journal Name</button>
+            </div>
+        </div>
+
+        <div class="journal" id="journal-cover">
+            <h2><span id="journal-name">"NAME's"</span> Journal</h2>
+            <div class="journal-pages">
+                <div class="flipbook">
+                    <!-- Page 1 -->
+                    <div class="journal-page" id="page1" contenteditable="true">
+                        <h3>Page 1</h3>
+                        <p>Type your thoughts here...</p>
+                    </div>
+                    <!-- Page 2 -->
+                    <div class="journal-page" id="page2" contenteditable="true">
+                        <h3>Page 2</h3>
+                        <p>Write your reflections...</p>
+                    </div>
+                    <!-- Add more pages as needed -->
+                </div>
+            </div>
+            <div class="navigation">
+                <button id="prevPage">Previous</button>
+                <button id="nextPage">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="journalgpt.js"></script>
+</body>
+</html>

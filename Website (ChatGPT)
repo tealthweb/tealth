@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tealth Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Tealth Logo"> <!-- Replace 'logo.png' with your logo file path -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Anxiety and Overthinking</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">My Journal!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Tealth!</h1>
+            <div class="tagline">"You are safe here"</div>
+            <h2>Our Aim</h2>
+            <p>
+                Hi there! Welcome to Tealth! In our website, we aim to provide support and tips to all of you facing mental health problems like anxiety and overthinking alone.
+                I know it seems scary but it will all be okay!
+            </p>
+            <div class="tagline">"You will be okay"</div>
+        </div>
+        <div class="hero-image">
+            <img src="your-image.png" alt="Hug Image"> <!-- Replace 'your-image.png' with your image file path -->
+        </div>
+    </section>
+</body>
+</html>
